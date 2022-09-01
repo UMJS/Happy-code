@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: #038c7f;
+}
+
+ol{
+    margin: 0 auto;
+    width: 300px;
+} 
+
+a{
+    color: #f2e7dc;
+}
+table{
+    width: 100%;
+}
+td{
+    background-color: #A9d9d0;
+}
+tr{
+    background-color: #038c7f;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    padding: 0 3rem;
+}
+img{
+    width: 300px;
+}
+.titulo{
+    background-color: #A9d9d0;
+}
+#l1, #l2, #l3, #l4, #l5{
+    background-color: #A9d9d0;
+}
+footer img {
+    width: auto;
+    padding: auto;
+}
+footer{
+    text-align: center;
+}

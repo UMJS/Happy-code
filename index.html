@@ -7,124 +7,140 @@
   <meta name="description" content=" Atividade feita com HTML"/>
   <meta name="author" content="Ubaldo Meireles">
   <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1974/1974753.png">
-  <title>Exercício 1 HappyCode</title>
-  <style>
-  body{
-      color: white;
-      background-color: black;
-      font-size: 15px
-  }
-  
-  header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    height: 70%;
-    border-radius: 5%;
-    border: 1px solid #da160f;
-    
-
-  }
-
-  .perfil{
-    background: rgb(22,38,106);
-    background: linear-gradient(90deg, rgba(22,38,106,1) 0%, rgba(253,29,29,1) 46%, rgba(255,255,255,1) 91%);
-  }
-
-  footer{
-  align-items: center;
-  }
-
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Exercício 2 HappyCode</title>
 </head>
+
 <body>
-
-  <header>
-
-    <div class="perfil">
-    <picture >
-        <img  src="https://lh3.googleusercontent.com/EYdDVca7MU2nNvlx49EuL55KuX7KK-OyRL1YsvGS8zT9Q5I21sSEKyeFPqEwAQpaVzWRIrlGswTUpoEtacibHHxSnvbRVASW1DInFKn-iB0RCsNpMe5noNT1-J2t5DzdLCAVjr5-3lmJJDwin3IFdvf7OSi4f8niGeLKfIR9ML0q8ft8LmbQjVgL6loBrXpA3IoKeEKBmEzbwS6hzHiDXWC-FjoNPO9r6hAGZPCIrEawqjWLQxI1yvPcCdh11VCAOJdwdUMDRznZWFb5AQB0LcdfaLBM_laxwpMntYwkWtPbJrfm6p-k_U8vTLaYN5biZOoPCmqWSXIMTY7QCK_VGcVVtSS_T7csucrimksdlYH6i-BY1oTQPC-thbhVodlg8xx9B7p3iy4e92G1GaAsyp9K04wQbUOgMIpFd8m0OF9681yallSsc2lJmijoRlx0qr6TimXyaR1BrKR-F0J0d-TWCTbV6Sl8k9015olksYAW_J3GW-8AwMs4-JlKVNtd7EPZqn2o03Ow0F0Np5cfRrC8vXz3niF6mMH0da7Zp2qXCL_6KX3SRCNJeDIGW1vCv4cME8zSOnGHu84N8kkX5p5sDqHuDdv_awoVtbJwT9G-i4A_RaPCvPO8w4QkROSEBqLU8bZ1HqqGI5Kizw1HlBr5Hdy4mt6RgdDuoOCdZbJ6rhip0fBjYZKO4slpZ0X-5Q-j1m629dVWz-YPKcEu9jJVxQgd7d9aWk96Vya9THK8bCyGtb8CkFbqFhyTYXs=w758-h568-no?authuser=0"  alt="Foto de perfil de Ubaldo Meireles - Fundo Cidade Baixa"> 
-    </picture>
+    <div>
+        <h1>Estante de Livros</h1>
+        <h4> Sua Bliblioteca a um clique de distância</h4>
     </div>
-    <h1>UBALDO MEIRELES</h1>
-    <h2>Analista de Suporte</h2> 
-    <h3>Graduando em Sistemas de Informação pela ESAB</h3> <br>
-  </header>
+    <div>
+      <h2>Sumário</h2>
+      <ol>
+        <li> <a href="#l1"> Harry Potter e a Pedra Filosofal       </a></li>
+        <li> <a href="#l2"> O Senhor dos Anéis: A Sociedade do Anel</a></li>
+        <li> <a href="#l3"> Percy Jackson e o Ladrão de Raios      </a></li>
+        <li> <a href="#l4"> Alice no País das Maravilhas           </a></li>
+        <li> <a href="#l5"> O Guia do Mochileiro das Galáxias      </a></li>
+      </ol>
+    </div>
+    <section id="l1">
+      <h3 class="titulo">Harry Potter e a Pedra Filosofal</h3>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81ibfYk4qmL.jpg" title="capa do livro">
+      <h3>Sinopse</h3>
+      <p>Harry Potter não é um herói habitual. É apenas um miúdo magricela, míope e desajeitado com uma estranha cicatriz na testa. Estranha, de facto, porque afinal encerra misteriosos poderes que o distinguem do cinzento mundo dos muggles (os complicados humanos) e que irá fazer dele uma criança especialmente dotada para o universo da magia. Admitido na escola de Hogwarts onde se formam os mais famosos feiticeiros do mundo, Harry Potter irá viver todas as aventuras que a sua imaginação lhe irá proporcionar.</p>
+      <p>Fonte: Google Books</p>
+      <table>
+        <tr>
+          <th>Data da Primeira Publicação</th>
+          <th>Autor</th>
+          <th>Idioma Original</th>
+          <th>Gêneros</th>
+        </tr>
+        <tr>
+          <td> 26 de junho de 1997</td>
+          <td>J.K. Rowling, Isabel Fraga</td>
+          <td>Inglês</td>
+          <td> Romance, Literatura infantil, Literatura fantástica, Alta fantasia</td>
+        </tr>
+      </table>
+    </section>
+    <section id="l2">
+      <h3 class="titulo">O Senhor dos Anéis: A Sociedade do Anel</h3>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81MZ8OjmQrL.jpg" title="capa do livro">
+      <h3>Sinopse</h3>
+      <p>A Sociedade do Anel O volume inicial de O Senhor dos Anéis, lançado originalmente em julho de 1954, foi o primeiro grande épico de fantasia moderno, conquistando milhões de leitores e se tornando o padrão de referência para todas as outras obras do gênero até hoje. A imaginação prodigiosa de J.R.R. Tolkien e seu conhecimento profundo das antigas mitologias da Europa permitiram que ele criasse um universo tão complexo e convincente quanto o mundo real. A Sociedade do Anel começa no Condado, a região rural do oeste da Terra-média onde vivem os diminutos e pacatos hobbits. Bilbo Bolseiro, um dos raros aventureiros desse povo, cujas peripécias foram contadas em O Hobbit, resolve ir embora do Condado e deixa sua considerável herança nas mãos de seu jovem parente Frodo. O mais importante legado de Bilbo é o anel mágico que costumava usar para se tornar invisível. No entanto, o mago Gandalf, companheiro de aventuras do velho hobbit, revela a Frodo que o objeto é o Um Anel, a raiz do poder demoníaco de Sauron, o Senhor Sombrio, que deseja escravizar todos os povos da Terra-média. A única maneira de eliminar a ameaça de Sauron é destruir o Um Anel nas entranhas da própria montanha de fogo onde foi forjado. A revelação faz com que Frodo e seus companheiros hobbits Sam, Merry e Pippin deixem a segurança do Condado e iniciem uma perigosa jornada rumo ao leste. Ao lado de representantes dos outros Povos Livres que resistem ao Senhor Sombrio, eles formam a Sociedade do Anel. Alguém uma vez disse que o mundo dos leitores de língua inglesa se divide entre os que já leram O Senhor dos Anéis e os que um dia lerão o livro. Com esta nova tradução da obra, o fascínio dessa aventura atemporal ficará ainda mais evidente para os leitores brasileiros, tanto os que já conhecem a saga como os que estão prestes a descobrir seu encanto.</p>
+      <p>Fonte: Google Books</p>
+      <table>
+        <tr>
+          <th>Data da Primeira Publicação</th>
+          <th>Autor</th>
+          <th>Idioma Original</th>
+          <th>Gêneros</th>
+        </tr>
+        <tr>
+          <td> 25 de novembro de 2019</td>
+          <td>JJ.R.R. Tolkien</td>
+          <td>Inglês</td>
+          <td> Ação, Aventura, Fantasia.   </td>
+        </tr>
+      </table>
+    </section >
+    <section id="l3">
+      <h3 class="titulo">Percy Jackson e o Ladrão de Raios</h3>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81uAKpGJ-FL.jpg" title="capa do livro">
+      <h3>Sinopse</h3>
+      <p>Primeiro volume da saga Percy Jackson e os olimpianos, O ladrão de raios esteve entre os primeiros lugares na lista das séries mais vendidas do The New York Times. O autor conjuga lendas da mitologia grega com aventuras no século XXI. Nelas, os deuses do Olimpo continuam vivos, ainda se apaixonam por mortais e geram filhos metade deuses, metade humanos, como os heróis da Grécia antiga. Marcados pelo destino, eles dificilmente passam da adolescência. Poucos conseguem descobrir sua identidade. O garoto-problema Percy Jackson é um deles. Tem experiências estranhas em que deuses e monstros mitológicos parecem saltar das páginas dos livros direto para a sua vida. Pior que isso: algumas dessas criaturas estão bastante irritadas. Um artefato precioso foi roubado do Monte Olimpo e Percy é o principal suspeito. Para restaurar a paz, ele e seus amigos – jovens heróis modernos – terão de fazer mais do que capturar o verdadeiro ladrão: precisam elucidar uma traição mais ameaçadora que fúria dos deuses.</p>
+      <p>Fonte: Google Books</p>
+      <table>
+        <tr>
+          <th>Data da Primeira Publicação</th>
+          <th>Autor</th>
+          <th>Idioma Original</th>
+          <th>Gêneros</th>
+        </tr>
+        <tr>
+          <td> 28 de junho de 2005</td>
+          <td>Rick Riordan</td>
+          <td>Inglês</td>
+          <td> Mitologia grega, Romance, Ficção juvenil, Literatura fantástica, Alta fantasia</td>
+        </tr>
+      </table>
+    </section>
+    <section id="l4">
+      <h3 class="titulo">Alice no País das Maravilhas</h3>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91hq-bopcvL.jpg" title="capa do livro">
+      <h3>Sinopse</h3>
+      <p>Quem não se lembra do Coelho Branco, do Gato de Cheshire, da Lebre de Março, do Chapeleiro Maluco, da Rainha de Copas... e da incontornável Alice...? As personagens que Lewis Carroll imortalizou num clássico único para todas as idades. Viaje pelo mundo da imaginação e do nonsense onde tudo é possível!</p>
+      <p>Fonte: Google Books</p>
+      <table>
+        <tr>
+          <th>Data da Primeira Publicação</th>
+          <th>Autor</th>
+          <th>Idioma Original</th>
+          <th>Gêneros</th>
+        </tr>
+        <tr>
+          <td> 28 de fevereiro de 2012</td>
+          <td>Lewis Carrol</td>
+          <td>Inglês</td>
+          <td> Literatura infantil, Literatura fantástica, Drama, Ficção juvenil, Ficção Absurdista, Fantástico</td>
+        </tr>
+      </table>
+    </section>
+    <section id="l5">
+      <h3 class="titulo">O Guia do Mochileiro das Galáxias</h3>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81eMrK+qVCL.jpg" title="capa do livro">
+      <h3>Sinopse</h3>
+      <p>Considerado um dos maiores clássicos da literatura de ficção científica, O Guia do Mochileiro das Galáxias vem encantando gerações de leitores ao redor do mundo com seu humor afiado.
+        Este é o primeiro título da famosa série escrita por Douglas Adams, que conta as aventuras espaciais do inglês Arthur Dent e de seu amigo Ford Prefect.
+        A dupla escapa da destruição da Terra pegando carona numa nave alienígena, graças aos conhecimentos de Prefect, um E.T. que vivia disfarçado de ator desempregado enquanto fazia pesquisa de campo para a nova edição do Guia do Mochileiro das Galáxias, o melhor guia de viagens interplanetário.
+        Mestre da sátira, Douglas Adams cria personagens inesquecíveis e situações mirabolantes para debochar da burocracia, dos políticos, da "alta cultura" e de diversas instituições atuais. Seu livro, que trata em última instância da busca do sentido da vida, não só diverte como também faz pensar.</p>
+      <p>Fonte: Google Books</p>
+      <table>
+        <tr>
+          <th>Data da Primeira Publicação</th>
+          <th>Autor</th>
+          <th>Idioma Original</th>
+          <th>Gêneros</th>
+        </tr>
+        <tr>
+          <td> 9 de novembro de 2010</td>
+          <td>Douglas Adams</td>
+          <td>Inglês</td>
+          <td>Ficção científica, Romance, Humor, Ficção científica cômica, Ficção humorística</td>
+        </tr>
+      </table>
+    </section>
 
-<main>
-  <article>
- <h1>Quem é Ubaldo Meireles?</h1>
-
-<p>Nasci 19 de junho de 1985 e moro em <b>salvador</b> da Bahia, <del>dizem </del> que sou comunicativo, trabalho bem em equipe, sou membro fundador de  associação 
-  de atletas Paralímpicos da Bahia (AAPBA), que tem como objetivo a integração dos PCDs a sociedade. já trabalhei em outros projetos sociais como <small><del>professor</del></small> orientador de informática básica e manutenção de micro. </p><br>
-
-<h3>Por que eu estudo programação?</h3>
-
-<p>Como fruto da necessidade de incluir digitalmente os PCDs, iniciei essa caminhada nas trilhas virtuais da programação, tendo como objetivo me tornar um programador full-stack, e assim elaborar sites e apps para o 
-  público PCD. </p>
-
-  
-  </article>
-
-  <article>
-    <h2>HappyCode:</h2>
-    <p>
-      Fique muito feliz pela oportunidade de desenvolver minha habilidades no front end, o que aparentemente vai ser fácil, devido a didática da professora! 
-    </p>
-
-    <h4>1ª Aula</h4> 
-    <p>Nesta aula aprendemos:</p>
-    <ol>
-      <li>A história do HTML</li>
-      <li>Instalação do sublime text</li>
-      <li>Tags e atributos HTML</li>
-    </ol>
-    <details>
-      <summary><b> Quer saber sobre a Tarefa de Casa? </b>  <i>(Clique aqui para expandir)</i> </summary>
-    <h4>Tarefa de Casa</h4>
-    
-    Construa uma página html para se apresentar, utilizando as tags e atributos que conhecemos hoje:<br>
-    <ul>
-    <li>Parágrafo </li>
-    <li>Quebra de linha </li>
-    <li>Títulos </li>
-    <li>Style</li>
-    <li >background-color</li>
-    <li>color</li>
-    <li>font-family</li>
-    <li>font-size</li>
-    <li>text-align</li>
-    <li>Formatação</li>
-    <li>Negrito <b></li>
-    <li>Itálico <i></li>
-    <li>Pequeno <small></li>
-    <li>Marcado <mark></li>
-    <li>Riscado <del></li>
-    <li>Sublinhado <ins></li>
-    </ul>
-
-    <h2>Você esta nela!</h2>
-  
-  </article>
-  </details>
-  <article>
-    <h3>Contato:</h3>
-<a href="https://www.linkedin.com/in/umjs/" alt="Linkedin" ><img src="https://camo.githubusercontent.com/34b16094e3e9f6d80112413610702adf7e3a37531611c64f2e0664f5071d6a29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d626c75653f7374796c653d666c61742d737175617265266c6f676f3d4c696e6b6564696e266c6f676f436f6c6f723d7768697465266c696e6b3d68747470733a2f2f7777772e6c696e6b6564696e2e636f6d2f696e2f7562616c646f2d6d656972656c65732d64652d6a657375732d736f7573612d6238623632623332" ></a>
+    <footer>
+      <br> © Ubaldo Meireles de Jesus Sousa <br>
+      <a href="https://www.linkedin.com/in/umjs/" alt="Linkedin" ><img src="https://camo.githubusercontent.com/34b16094e3e9f6d80112413610702adf7e3a37531611c64f2e0664f5071d6a29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d626c75653f7374796c653d666c61742d737175617265266c6f676f3d4c696e6b6564696e266c6f676f436f6c6f723d7768697465266c696e6b3d68747470733a2f2f7777772e6c696e6b6564696e2e636f6d2f696e2f7562616c646f2d6d656972656c65732d64652d6a657375732d736f7573612d6238623632623332" ></a>
 <a href="https://www.instagram.com/ubaldo3/" alt="Instagram" ><img src="https://camo.githubusercontent.com/adc84f5216faa4b5fe1e823995411af5a1584766c63e85a4f3deac85178c27cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d7562616c646f332d6134336239643f7374796c653d666c61742d737175617265266c6f676f3d496e7374616772616d266c6f676f436f6c6f723d7768697465266c696e6b3d68747470733a2f2f7777772e696e7374616772616d2e636f6d2f7562616c646f332f" ></a>
 <a href="https://twitter.com/ubaldo3" alt="twitter" ><img src="https://camo.githubusercontent.com/db0f05b9ddc577285510d923837e50b09b2df4eba7822571e83d3b726e676ba7/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c3f7374796c653d736f6369616c2675726c3d6874747073253341253246253246747769747465722e636f6d2532467562616c646f33" ></a>
-  </article>
-
-  
-
-  </main>
-
-  <footer align="center">
-    <br> © Ubaldo Meireles de Jesus Sousa <br>
-    
-  </footer>
-
-
+    </footer>
 
 </body>
 </html>
